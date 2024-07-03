@@ -1,0 +1,20 @@
+class extends class                                      true
+class extends class,class                                false
+class extends abstract class                             true
+class extends abstract class,class                       false
+class extends abstract class abstract class              false
+class extends interface                                  false
+class implements interface                               true
+class implements interface,interface                     true
+class implements interface extends class                 false
+class implements interface extends abstract class        false
+class extends class implements interface                 true
+class extends abstract class implements interface        true
+abstract class extends class                             true
+abstract class extends abstract class                    true
+abstract class extends class, class                      false
+abstract class extends abstract class, abstract class    false
+abstract class extends class, abstract class             false
+abstract class extends interface                         false
+abstract classs implements interface                     true
+abstract class implements interface, interface           true
